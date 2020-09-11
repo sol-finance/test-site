@@ -6,10 +6,18 @@ SITENAME = 'Pelican Test'
 SITEURL = ''
 
 PATH = 'content'
+STATIC_PATHS = ['images']
 
 TIMEZONE = 'Asia/Kuala_Lumpur'
 
 DEFAULT_LANG = 'en'
+
+TYPOGRIFY = False
+
+# Category settings
+
+USE_FOLDER_AS_CATEGORY = True
+DEFAULT_CATEGORY = 'misc'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -24,10 +32,10 @@ ARTICLE_PATHS = ['articles',]
 ARTICLE_URL = 'articles/{slug}.html'
 ARTICLE_SAVE_AS = 'articles/{slug}.html'
 
-# Links List
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         )
+# Blogroll
+LINKS = (('Pelican', 'http://getpelican.com/'),
+         ('Python.org', 'http://python.org/'),
+         ('test-site', 'https://sol-finance.github.io/test-site'),)
 
 # # Social widget
 # SOCIAL = (('You can add links in your config file', '#'),
