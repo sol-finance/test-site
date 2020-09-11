@@ -1245,4 +1245,5 @@ h6:hover .anchor-link {
 &lt;/script&gt;
 </content><category term="articles"></category><category term="python firsts"></category></entry><entry><title>Initial post</title><link href="https://sol-finance.github.io/test-site/initial-post.html" rel="alternate"></link><published>2020-09-08T00:00:00+08:00</published><updated>2020-09-08T00:00:00+08:00</updated><author><name>me</name></author><id>tag:sol-finance.github.io,2020-09-08:/test-site/initial-post.html</id><content type="html">&lt;h4&gt;Initial Post&lt;/h4&gt;
 &lt;p&gt;This is the first post. Tested on Github Pages!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Test Image" src="../images/python pandas.jpeg"&gt;&lt;/p&gt;
 &lt;p&gt;Made with &lt;a href="https://getpelican.com"&gt;pelican&lt;/a&gt;!&lt;/p&gt;</content><category term="articles"></category></entry></feed>
