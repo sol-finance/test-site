@@ -46,16 +46,35 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-THEME = './pelican-blue'
 
-
-# Path to the folder containing the plugins
-PLUGIN_PATHS = ['plugins']
-
-MARKUP = ("md", "ipynb")
 
 # Enabled plugins
-from pelican_jupyter import markup as nb_markup
-PLUGINS = [nb_markup]
 
-IGNORE_FILES = [".ipynb_checkpoints"]
+# Path to the folder containing the plugins
+
+PLUGIN_PATHS = ["./pelican-plugins"]
+
+# from pelican_jupyter import markup as nb_markup
+
+MARKUP = ("md")
+
+# MARKUP = ("md", "ipynb")
+
+PLUGINS = [
+    'i18n_subsites',
+    # 'series',
+    # 'tag_cloud',
+    # 'liquid_tags.youtube',
+    # 'liquid_tags.notebook',
+    # 'liquid_tags.include_code',
+    # 'render_math',
+    'pelican-ipynb.markup']
+
+# IGNORE_FILES = [".ipynb_checkpoints"]
+
+# THEMES
+
+THEME = 'pelican-themes/pelican-bootstrap3'
+BOOTSTRAP_THEME = 'flatly'
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+I18N_TEMPLATES_LANG = 'en'

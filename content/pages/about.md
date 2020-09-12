@@ -1,4 +1,4 @@
 Title: About this site
 
-### Hello!
+## Hello!
 This is the test site
