@@ -52,25 +52,26 @@ DEFAULT_PAGINATION = 10
 
 # Path to the folder containing the plugins
 
-PLUGIN_PATHS = ["./pelican-plugins"]
+PLUGIN_PATHS = ["pelican-plugins"]
 
 # from pelican_jupyter import markup as nb_markup
 
-MARKUP = ("md")
+# MARKUP = ("md")
 
-# MARKUP = ("md", "ipynb")
+MARKUP = ("md", "ipynb")
 
 PLUGINS = [
     'i18n_subsites',
-    # 'series',
-    # 'tag_cloud',
+    'series',
+    'tag_cloud',
     # 'liquid_tags.youtube',
     # 'liquid_tags.notebook',
     # 'liquid_tags.include_code',
-    # 'render_math',
-    'pelican-ipynb.markup']
+    'render_math',
+    'pelican_jupyter.markup'
+    ]
 
-# IGNORE_FILES = [".ipynb_checkpoints"]
+IGNORE_FILES = [".ipynb_checkpoints"]
 
 # THEMES
 
