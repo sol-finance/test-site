@@ -52,7 +52,7 @@ DEFAULT_PAGINATION = 10
 
 # Path to the folder containing the plugins
 
-PLUGIN_PATHS = ["pelican-plugins"]
+PLUGIN_PATHS = ['/pelican-plugins']
 
 # from pelican_jupyter import markup as nb_markup
 
@@ -64,8 +64,9 @@ PLUGINS = [
     'i18n_subsites',
     'series',
     'tag_cloud',
-    'liquid_tags.youtube',
-    'liquid_tags.include_code',
+    # 'liquid_tags',
+    # 'liquid_tags.youtube',
+    # 'liquid_tags.include_code',
     'render_math',
     'tipue_search',
     'pelican_jupyter.markup'

@@ -10,4 +10,6 @@ This is the first post. Tested on Github Pages!
 
 {% youtube Qq-5frjUfK0 %}
 
+<iframe width="1191" height="670" src="https://www.youtube.com/embed/NZvhMy024oo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Made with [pelican](https://getpelican.com)!
