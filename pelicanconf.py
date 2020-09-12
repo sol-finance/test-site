@@ -64,14 +64,19 @@ PLUGINS = [
     'i18n_subsites',
     'series',
     'tag_cloud',
-    # 'liquid_tags.youtube',
-    # 'liquid_tags.notebook',
-    # 'liquid_tags.include_code',
+    'liquid_tags.youtube',
+    'liquid_tags.include_code',
     'render_math',
+    'tipue_search',
     'pelican_jupyter.markup'
     ]
 
+# for pelican_jupyter Plugin
+
 IGNORE_FILES = [".ipynb_checkpoints"]
+
+# for Tique Search Plugin
+DIRECT_TEMPLATES = ('index','tags', 'categories', 'authors', 'archives', 'search')
 
 # THEMES
 
