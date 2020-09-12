@@ -26,6 +26,7 @@
     <link href="https://sol-finance.github.io/test-site/theme/css/font-awesome.min.css" rel="stylesheet">
 
     <link href="https://sol-finance.github.io/test-site/theme/css/pygments/native.css" rel="stylesheet">
+    <link href="https://sol-finance.github.io/test-site/theme/tipuesearch/tipuesearch.css" rel="stylesheet">
     <link rel="stylesheet" href="https://sol-finance.github.io/test-site/theme/css/style.css" type="text/css"/>
 
         <link href="https://sol-finance.github.io/test-site/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
@@ -57,6 +58,11 @@ Pelican Test            </a>
                         </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
+              <li><span>
+                <form class="navbar-search" action="/search.html">
+                  <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
+                </form></span>
+              </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -75,6 +81,7 @@ Pelican Test            </a>
                 <div class="summary"><h4>Initial Post</h4>
 <p>This is the first post. Tested on Github Pages!</p>
 <p><img alt="Python Pandas" src="https://sol-finance.github.io/test-site/images/python pandas.jpeg" title="Test Image of Python Pandas"></p>
+<p>{% youtube Qq-5frjUfK0 %}</p>
 <p>Made with <a href="https://getpelican.com">pelican</a>!</p>
                     <a class="btn btn-default btn-xs" href="https://sol-finance.github.io/test-site/articles/initial-post.html">more ...</a>
                 </div>

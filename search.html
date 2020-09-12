@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>articles - Pelican Test</title>
+    <title>Search - Pelican Test
+</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,8 +11,7 @@
 
 
 
-    <meta name="author" content="me" />
-    <meta name="keywords" content="articles" />
+        <meta name="author" content="me" />
 
     <!-- Open Graph tags -->
         <meta property="og:site_name" content="Pelican Test" />
@@ -33,8 +33,7 @@
         <link href="https://sol-finance.github.io/test-site/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
               title="Pelican Test ATOM Feed"/>
 
-        <link href="https://sol-finance.github.io/test-site/feeds/articles.atom.xml" type="application/atom+xml" rel="alternate"
-              title="Pelican Test articles ATOM Feed"/>
+
 </head>
 <body>
 
@@ -55,7 +54,7 @@ Pelican Test            </a>
                          <li><a href="https://sol-finance.github.io/test-site/pages/about-this-site.html">
                              About this site
                           </a></li>
-                        <li class="active">
+                        <li >
                             <a href="https://sol-finance.github.io/test-site/category/articles.html">Articles</a>
                         </li>
             </ul>
@@ -78,25 +77,7 @@ Pelican Test            </a>
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-            <article>
-                <h2><a href="https://sol-finance.github.io/test-site/articles/nb-post.html">NB Post</a></h2>
-                <div class="summary"><p>My first post, read it to find out.</p>
-                    <a class="btn btn-default btn-xs" href="https://sol-finance.github.io/test-site/articles/nb-post.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="https://sol-finance.github.io/test-site/articles/initial-post.html">Initial post</a></h2>
-                <div class="summary"><h4>Initial Post</h4>
-<p>This is the first post. Tested on Github Pages!</p>
-<p><img alt="Python Pandas" src="https://sol-finance.github.io/test-site/images/python pandas.jpeg" title="Test Image of Python Pandas"></p>
-<p>{% youtube Qq-5frjUfK0 %}</p>
-<p>Made with <a href="https://getpelican.com">pelican</a>!</p>
-                    <a class="btn btn-default btn-xs" href="https://sol-finance.github.io/test-site/articles/initial-post.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-
+<div id="tipue_search_content"></div>
         </div>
         <div class="col-sm-3" id="sidebar">
             <aside>
@@ -162,5 +143,16 @@ Pelican Test            </a>
 
 
 
+    <script src="https://sol-finance.github.io/test-site/tipuesearch_content.js"></script>
+    <script type="text/javascript" src="https://sol-finance.github.io/test-site/theme/tipuesearch/tipuesearch_set.js"></script>
+    <script type="text/javascript" src="https://sol-finance.github.io/test-site/theme/tipuesearch/tipuesearch.min.js"></script>
+    <script>
+    $(document).ready(function() {
+      $('#tipue_search_input').tipuesearch({
+        'show': 10,
+        'newWindow': false
+      });
+    });
+    </script>
 </body>
 </html>
